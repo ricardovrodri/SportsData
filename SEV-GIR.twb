@@ -1,0 +1,1275 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0818.1050                               -->
+<workbook original-version='18.1' source-build='2025.2.2 (20252.25.0818.1050)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sev-Gir (Girona_Sevilla_J3_25_26)' inline='true' name='federated.0rtdj1c1w7vbg91847sd40shkipk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Girona_Sevilla_J3_25_26' name='excel-direct.0nn5fc11d1eebv1891tk708py41q'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/vazro/OneDrive/Documentos/Girona_Sevilla_J3_25_26.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0nn5fc11d1eebv1891tk708py41q' name='Sev-Gir' table='[&apos;Sev-Gir$&apos;]' type='table'>
+          <columns gridOrigin='A1:AA30:no:A1:AA30:0' header='yes' outcome='2'>
+            <column datatype='string' name='Player' ordinal='0' />
+            <column datatype='integer' name='#' ordinal='1' />
+            <column datatype='string' name='Pos' ordinal='2' />
+            <column datatype='string' name='Team' ordinal='3' />
+            <column datatype='integer' name='Min' ordinal='4' />
+            <column datatype='integer' name='Total Passes Cmp' ordinal='5' />
+            <column datatype='integer' name='Total Passes Att' ordinal='6' />
+            <column datatype='string' name='Total Passes Cmp%' ordinal='7' />
+            <column datatype='integer' name='TotDist' ordinal='8' />
+            <column datatype='integer' name='PrgDist' ordinal='9' />
+            <column datatype='integer' name='Short Passes Cmp' ordinal='10' />
+            <column datatype='integer' name='Short Passes Att' ordinal='11' />
+            <column datatype='string' name='Short Passes Cmp%' ordinal='12' />
+            <column datatype='integer' name='Medium Passes Cmp' ordinal='13' />
+            <column datatype='integer' name='Medium Passes Att' ordinal='14' />
+            <column datatype='string' name='Medium Passes Cmp%' ordinal='15' />
+            <column datatype='integer' name='Long Passes Cmp' ordinal='16' />
+            <column datatype='integer' name='Long Passes Att' ordinal='17' />
+            <column datatype='string' name='Long Passes Cmp%' ordinal='18' />
+            <column datatype='integer' name='Ast' ordinal='19' />
+            <column datatype='string' name='xAG' ordinal='20' />
+            <column datatype='string' name='xA' ordinal='21' />
+            <column datatype='integer' name='KP' ordinal='22' />
+            <column datatype='integer' name='Final Third' ordinal='23' />
+            <column datatype='integer' name='PPA' ordinal='24' />
+            <column datatype='integer' name='CrsPA' ordinal='25' />
+            <column datatype='integer' name='PrgP' ordinal='26' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AA30:no:A1:AA30:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Player</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Player]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Player</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>#</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[#]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>#</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pos</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Pos]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Pos</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Min</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Min]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Min</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Passes Cmp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Passes Cmp]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Total Passes Cmp</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Passes Att</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Passes Att]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Total Passes Att</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Passes Cmp%</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total Passes Cmp%]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Total Passes Cmp%</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotDist</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TotDist]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>TotDist</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PrgDist</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PrgDist]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>PrgDist</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short Passes Cmp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Short Passes Cmp]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Short Passes Cmp</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short Passes Att</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Short Passes Att]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Short Passes Att</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short Passes Cmp%</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Short Passes Cmp%]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Short Passes Cmp%</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medium Passes Cmp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Medium Passes Cmp]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Medium Passes Cmp</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medium Passes Att</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Medium Passes Att]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Medium Passes Att</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medium Passes Cmp%</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Medium Passes Cmp%]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Medium Passes Cmp%</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long Passes Cmp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Long Passes Cmp]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Long Passes Cmp</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long Passes Att</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Long Passes Att]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Long Passes Att</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long Passes Cmp%</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Long Passes Cmp%]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Long Passes Cmp%</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ast</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ast]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Ast</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>xAG</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[xAG]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>xAG</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>xA</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[xA]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>xA</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KP]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>KP</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Final Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Final Third]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>Final Third</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PPA]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>PPA</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CrsPA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CrsPA]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>CrsPA</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PrgP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PrgP]</local-name>
+            <parent-name>[Sev-Gir]</parent-name>
+            <remote-alias>PrgP</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='No Prg Dist' datatype='integer' name='[Calculation_151152113693990913]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[TotDist]-[PrgDist]' />
+      </column>
+      <column caption='Ratio Dist Pass' datatype='real' name='[Calculation_151152113694715906]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[PrgDist]/[PrgP]' />
+      </column>
+      <column caption='Crs PA' datatype='integer' name='[CrsPA]' role='measure' type='quantitative' />
+      <column datatype='real' datatype-customized='true' name='[Long Passes Cmp%]' role='measure' type='quantitative' />
+      <column datatype='real' datatype-customized='true' name='[Medium Passes Cmp%]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Pos (grupo)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Pos]' new-bin='true'>
+          <bin default-name='false' value='&quot;Defensa&quot;'>
+            <value>&quot;CB&quot;</value>
+            <value>&quot;LB&quot;</value>
+            <value>&quot;RB&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Delantera&quot;'>
+            <value>&quot;FW&quot;</value>
+            <value>&quot;LW&quot;</value>
+            <value>&quot;RW&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Medio&quot;'>
+            <value>&quot;AM&quot;</value>
+            <value>&quot;DM&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Pos]' role='dimension' type='nominal' />
+      <column caption='Prg Dist' datatype='integer' name='[PrgDist]' role='measure' type='quantitative' />
+      <column caption='Prg P' datatype='integer' name='[PrgP]' role='measure' type='quantitative' />
+      <column datatype='real' datatype-customized='true' name='[Short Passes Cmp%]' role='measure' type='quantitative' />
+      <column caption='Tot Dist' datatype='integer' name='[TotDist]' role='measure' type='quantitative' />
+      <column datatype='real' datatype-customized='true' name='[Total Passes Cmp%]' role='measure' type='quantitative' />
+      <column caption='Sev-Gir' datatype='table' name='[__tableau_internal_object_id__].[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]' role='measure' type='quantitative' />
+      <column caption='X Ag' datatype='real' datatype-customized='true' name='[xAG]' role='measure' type='quantitative' />
+      <column caption='X A' datatype='real' datatype-customized='true' name='[xA]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='C:/Users/vazro/AppData/Local/Temp/TableauTemp/#TableauTemp_04jx64x0jhrbby1d1ib4y1bn76zz.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/08/2025 11:27:35 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Player</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Player]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Player</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>#</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[#]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>#</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pos</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pos]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pos</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Team</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Team]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Team</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Min</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Min]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Min</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Passes Cmp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Passes Cmp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Passes Cmp</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Passes Att</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Passes Att]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Passes Att</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Passes Cmp%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total Passes Cmp%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Passes Cmp%</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TotDist</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TotDist]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TotDist</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PrgDist</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PrgDist]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PrgDist</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Short Passes Cmp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Short Passes Cmp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Short Passes Cmp</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Short Passes Att</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Short Passes Att]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Short Passes Att</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Short Passes Cmp%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Short Passes Cmp%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Short Passes Cmp%</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Medium Passes Cmp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Medium Passes Cmp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Medium Passes Cmp</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Medium Passes Att</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Medium Passes Att]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Medium Passes Att</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Medium Passes Cmp%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Medium Passes Cmp%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Medium Passes Cmp%</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Long Passes Cmp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Long Passes Cmp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Long Passes Cmp</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Long Passes Att</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Long Passes Att]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Long Passes Att</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Long Passes Cmp%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Long Passes Cmp%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Long Passes Cmp%</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ast</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Ast]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ast</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>xAG</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[xAG]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>xAG</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>xA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[xA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>xA</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>KP</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[KP]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>KP</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Final Third</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Final Third]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Final Third</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PPA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PPA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PPA</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CrsPA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CrsPA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CrsPA</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PrgP</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PrgP]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PrgP</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Sev-Gir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sev-Gir_FB8E048BB681436E91FC0C796F425BAB]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='shape' field='[Pos (grupo)]' type='shape'>
+            <map to='circle'>
+              <bucket>&quot;Defensa&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;GK&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;Medio&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;Delantera&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Sev-Gir' id='Sev-Gir_FB8E048BB681436E91FC0C796F425BAB'>
+            <properties context=''>
+              <relation connection='excel-direct.0nn5fc11d1eebv1891tk708py41q' name='Sev-Gir' table='[&apos;Sev-Gir$&apos;]' type='table'>
+                <columns gridOrigin='A1:AA30:no:A1:AA30:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Player' ordinal='0' />
+                  <column datatype='integer' name='#' ordinal='1' />
+                  <column datatype='string' name='Pos' ordinal='2' />
+                  <column datatype='string' name='Team' ordinal='3' />
+                  <column datatype='integer' name='Min' ordinal='4' />
+                  <column datatype='integer' name='Total Passes Cmp' ordinal='5' />
+                  <column datatype='integer' name='Total Passes Att' ordinal='6' />
+                  <column datatype='string' name='Total Passes Cmp%' ordinal='7' />
+                  <column datatype='integer' name='TotDist' ordinal='8' />
+                  <column datatype='integer' name='PrgDist' ordinal='9' />
+                  <column datatype='integer' name='Short Passes Cmp' ordinal='10' />
+                  <column datatype='integer' name='Short Passes Att' ordinal='11' />
+                  <column datatype='string' name='Short Passes Cmp%' ordinal='12' />
+                  <column datatype='integer' name='Medium Passes Cmp' ordinal='13' />
+                  <column datatype='integer' name='Medium Passes Att' ordinal='14' />
+                  <column datatype='string' name='Medium Passes Cmp%' ordinal='15' />
+                  <column datatype='integer' name='Long Passes Cmp' ordinal='16' />
+                  <column datatype='integer' name='Long Passes Att' ordinal='17' />
+                  <column datatype='string' name='Long Passes Cmp%' ordinal='18' />
+                  <column datatype='integer' name='Ast' ordinal='19' />
+                  <column datatype='string' name='xAG' ordinal='20' />
+                  <column datatype='string' name='xA' ordinal='21' />
+                  <column datatype='integer' name='KP' ordinal='22' />
+                  <column datatype='integer' name='Final Third' ordinal='23' />
+                  <column datatype='integer' name='PPA' ordinal='24' />
+                  <column datatype='integer' name='CrsPA' ordinal='25' />
+                  <column datatype='integer' name='PrgP' ordinal='26' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Hoja 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sev-Gir (Girona_Sevilla_J3_25_26)' name='federated.0rtdj1c1w7vbg91847sd40shkipk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rtdj1c1w7vbg91847sd40shkipk'>
+            <column caption='No Prg Dist' datatype='integer' name='[Calculation_151152113693990913]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[TotDist]-[PrgDist]' />
+            </column>
+            <column datatype='string' name='[Player]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Pos (grupo)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Pos]' new-bin='true'>
+                <bin default-name='false' value='&quot;Defensa&quot;'>
+                  <value>&quot;CB&quot;</value>
+                  <value>&quot;LB&quot;</value>
+                  <value>&quot;RB&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Delantera&quot;'>
+                  <value>&quot;FW&quot;</value>
+                  <value>&quot;LW&quot;</value>
+                  <value>&quot;RW&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Medio&quot;'>
+                  <value>&quot;AM&quot;</value>
+                  <value>&quot;DM&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Pos]' role='dimension' type='nominal' />
+            <column caption='Prg Dist' datatype='integer' name='[PrgDist]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column caption='Tot Dist' datatype='integer' name='[TotDist]' role='measure' type='quantitative' />
+            <column-instance column='[Player]' derivation='None' name='[none:Player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_151152113693990913]' derivation='Sum' name='[sum:Calculation_151152113693990913:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PrgDist]' derivation='Sum' name='[sum:PrgDist:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.0rtdj1c1w7vbg91847sd40shkipk].[none:Team:nk]' />
+              <shape column='[federated.0rtdj1c1w7vbg91847sd40shkipk].[Pos (grupo)]' />
+              <text column='[federated.0rtdj1c1w7vbg91847sd40shkipk].[none:Player:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rtdj1c1w7vbg91847sd40shkipk].[sum:Calculation_151152113693990913:qk]</rows>
+        <cols>[federated.0rtdj1c1w7vbg91847sd40shkipk].[sum:PrgDist:qk]</cols>
+      </table>
+      <simple-id uuid='{7263A2E9-4FA0-45FD-8EA2-1BAE65A0F07E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Hoja 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='4' param='[federated.0rtdj1c1w7vbg91847sd40shkipk].[none:Team:nk]' type='color' />
+            <card pane-specification-id='4' param='[federated.0rtdj1c1w7vbg91847sd40shkipk].[Pos (grupo)]' type='shape' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rtdj1c1w7vbg91847sd40shkipk].[Pos (grupo)]</field>
+            <field>[federated.0rtdj1c1w7vbg91847sd40shkipk].[none:Player:nk]</field>
+            <field>[federated.0rtdj1c1w7vbg91847sd40shkipk].[none:Team:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1DC6072F-355C-40E1-B516-035B66453B39}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Hoja 1' width='192'>
+      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
+      /j+pKOdjoco93gAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
